@@ -1,0 +1,18 @@
+POST http://localhost:3000/neworder
+content-type: application/json
+
+{ "data": {"orderId":"42"} }
+
+###
+
+GET http://localhost:3000/order HTTP/2.1
+Connection: keepalive
+
+#
+order api. server time: 1617155821961
+
+###
+https://localhost:5001/swagger/index.html
+
+###
+GET https://localhost:5001/api/WeatherForecast
